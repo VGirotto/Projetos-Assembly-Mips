@@ -1,8 +1,12 @@
-#####################################################################################################################################
-######							Feito por Vinícius Girotto						#####
-#####################################################################################################################################
+######################################################################################################################################
+######							Feito por Vinícius Girotto						######
+######################################################################################################################################
 
-#Abra o Bitmap Display para a visualização do jogo
+#Abra o Bitmap Display do Mars para a visualização do jogo
+#Configure da seguinte forma:
+#	Unit Width/Height in pixels = 32
+#	Display Width/Height in Pixels = 256
+#	Base address = 0x10000000 (global data)
 
 .data	
 	jogar: .asciiz "Em qual dessas posições você quer jogar? Digite apenas o número\n"
@@ -29,7 +33,6 @@
 		jogo2:
 		jal verifica_vitoria
 		j jogada_player2
-	
 	
 	
 	cores:
@@ -103,6 +106,11 @@
 		syscall
 		move $t6, $v0
 		
+		addi $t7, $zero, 1	#Marca qual jogador é(1)
+		
+		bgt $t6, 9, jogada_invalida	#Verifica se o número digitado é válido
+		blt $t6, 1, jogada_invalida
+		
 		#Verifica se pode jogar na posição escolhida
 		move $t9, $t6
 		subi $t9, $t9, 1
@@ -111,10 +119,7 @@
 		add $t8, $t8, $t9	#Desloca pelos endereços de t0
 		lw $s7, 0($t8)		#Pega o conteúdo no endereço desejado
 		
-		
-		addi $t7, $zero, 1	#Marca qual jogador é
 		bne $s7, $s3, jogada_invalida	#Verifica se a posição escolhida está livre
-		
 		
 		jal pinta_cor
 		
@@ -136,6 +141,11 @@
 		syscall
 		move $t6, $v0
 		
+		addi $t7, $zero, 2	#Marca qual jogador é(2)
+		
+		bgt $t6, 9, jogada_invalida	#Verifica se o número digitado é válido
+		blt $t6, 1, jogada_invalida
+		
 		#verificar se pode jogar na posição escolhida
 		move $t9, $t6
 		subi $t9, $t9, 1
@@ -144,7 +154,6 @@
 		add $t8, $t8, $t9	#Desloca pelos endereços de t0
 		lw $s7, 0($t8)		#Pega o conteúdo no endereço desejado	
 		
-		addi $t7, $zero, 2	#Marca qual jogador é
 		bne $s7, $s3, jogada_invalida	#Verifica se a posição escolhida está livre
 		
 		jal pinta_cor
