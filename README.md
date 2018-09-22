@@ -5,6 +5,6 @@ Procurei deixar tudo bem comentado para facilitar o estudo, você pode utilizar 
 
 São códigos de:
 
-*Jogo da Velha
+*Jogo da Velha - Utilizando o bitmap display para visualização do tabuleiro e o console para seleção da jogada;
 
-*Movimentação de Personagem no bitmap display com leitura do teclado
+*Movimentação de Personagem - Utilizando o bitmap display para visualizar a movimentação do personagem para cima, direita, esquerda e baixo, e o Keyboard Simulator para leitura da tecla apertada.
