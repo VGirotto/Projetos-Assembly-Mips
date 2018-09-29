@@ -7,4 +7,8 @@ São códigos de:
 
 *Jogo da Velha - Utilizando o bitmap display para visualização do tabuleiro e o console para seleção da jogada;
 
-*Movimentação de Personagem - Utilizando o bitmap display para visualizar a movimentação do personagem para cima, direita, esquerda e baixo, e o Keyboard Simulator para leitura da tecla apertada.
+*Movimentação de Personagem - Utilizando o bitmap display para visualizar a movimentação do personagem para cima, direita, esquerda e baixo, e o Keyboard Simulator para leitura da tecla apertada;
+
+*Fatorial Recursivo - Código que calcula o fatorial de um número recursivamente;
+
+*Tocar música - Pequeno exemplo de como tocar alguns sons em mips, com um exemplo de música sendo tocada com instrumentos aleatórios.
