@@ -373,21 +373,21 @@
 			jr $ra
 			
 		move_down:
-			bne $a1, 115, move_up #botão w
+			bne $a1, 115, move_up #botão s
 			lw $t0, pos
 			add $t0, $t0, 1536
 			sw $t0, pos
 			jr $ra
 			
 		move_up:
-			bne $a1, 119, move_right #botão d
+			bne $a1, 119, move_right #botão w
 			lw $t0, pos
 			add $t0, $t0, -1536
 			sw $t0, pos
 			jr $ra
 			
 		move_right:
-			bne $a1, 100, jogar #botão s
+			bne $a1, 100, jogar #botão d
 			lw $t0, pos
 			add $t0, $t0, 12
 			sw $t0, pos
