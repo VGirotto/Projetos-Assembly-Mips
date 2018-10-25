@@ -1,3 +1,7 @@
+#Feito por Vinícius Girotto
+#Esse programa gera uma aproximação para o número de euler
+#Um exemplo para manipular float em MIPS
+
 .data
 	num0: .double 0.0
 	num1: .double 1.0
