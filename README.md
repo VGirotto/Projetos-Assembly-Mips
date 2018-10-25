@@ -15,4 +15,4 @@ São códigos de:
 
 *Euler - Encontra uma aproximação para o número de Euler através da fórmula (1/n!), com n variando de 0 a 9;
 
-*EditArquive - Edita um arquivo existente tornando determinadas palavras maiúsculas.
+*EditArchive - Edita um arquivo existente tornando determinadas palavras maiúsculas.
