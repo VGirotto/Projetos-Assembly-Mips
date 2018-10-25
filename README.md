@@ -11,4 +11,8 @@ São códigos de:
 
 *Fatorial Recursivo - Código que calcula o fatorial de um número recursivamente;
 
-*Tocar música - Pequeno exemplo de como tocar alguns sons em mips, com um exemplo de música sendo tocada com instrumentos aleatórios.
+*Tocar música - Pequeno exemplo de como tocar alguns sons em mips, com um exemplo de música sendo tocada com instrumentos aleatórios;
+
+*Euler - Encontra uma aproximação para o número de Euler através da fórmula (1/n!), com n variando de 0 a 9;
+
+*EditArquive - Edita um arquivo existente tornando determinadas palavras maiúsculas.
