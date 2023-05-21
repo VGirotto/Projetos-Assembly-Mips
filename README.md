@@ -30,6 +30,7 @@ São códigos de:
 - Pixel Art - Programa de pixel art, com 11 cores possíveis de serem utilizadas.
 
 ![imagem PA](imgs/paMIPS.png)
-* O quadrado cinza é o cursor.
+
+*O quadrado cinza é o cursor.*
 
 > Abra o arquivo interface/tela.asm para ver as instruções de como executar esse programa.
