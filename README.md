@@ -7,11 +7,11 @@ São códigos de:
 
 - Jogo da Velha - Utilizando o bitmap display para visualização do tabuleiro e o console para seleção da jogada;
 
-![imagem jogo da velha](interface/jogovelha.png)
+![imagem jogo da velha](imgs/jogovelha.png)
 
 - Movimentação de Personagem - Utilizando o bitmap display para visualizar a movimentação do personagem para cima, direita, esquerda e baixo, e o Keyboard Simulator para leitura da tecla apertada;
 
-![imagem movimentação de char](interface/birdMove.png)
+![imagem movimentação de char](imgs/birdMove.png)
 
 - Fatorial Recursivo - Código que calcula o fatorial de um número recursivamente;
 
@@ -23,13 +23,13 @@ São códigos de:
 
 - Interface - Programa para preencher na tela desenhos pré-prontos, como na imagem:
 
-![imagem jogo](interface/drawMIPS.png)
+![imagem jogo](imgs/drawMIPS.png)
 
 > Abra o arquivo interface/Main.asm para ver as instruções de como executar esse programa.
 
 - Pixel Art - Programa de pixel art, com 11 cores possíveis de serem utilizadas.
 
-![imagem PA](interface/paMIPS.png)
+![imagem PA](imgs/paMIPS.png)
 * O quadrado cinza é o cursor.
 
 > Abra o arquivo interface/tela.asm para ver as instruções de como executar esse programa.
